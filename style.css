@@ -306,7 +306,7 @@ img{
 }
 
 .home__content{
-    grid-template-columns: .5fr 3fr;
+    grid-template-columns: 1.5fr 3fr;
     padding-top: 3.5rem;
     align-items: center;
 }
@@ -327,7 +327,7 @@ img{
 }
 
 .home__blob{
-    width: 170px;
+    width: 215px;
     fill: var(--first-color);
 }
 
@@ -810,7 +810,9 @@ img{
 }
 
 /* TESTIMONIALS */
-
+.testimonial__container{
+    padding: 0 1rem;
+}
 .testimonial__data, 
 .testimonial__header{
     display: flex;
@@ -1334,6 +1336,8 @@ img{
     .contact__inputs{
         grid-template-columns: repeat(2, 1fr );
     }
+
+
 
     
     
