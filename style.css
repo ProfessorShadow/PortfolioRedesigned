@@ -807,6 +807,7 @@ img{
 .project__img{
     width: 232px;
     justify-self: center;
+    margin-bottom: var(--mb-0-75);
 }
 
 /* TESTIMONIALS */
