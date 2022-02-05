@@ -392,6 +392,7 @@ img{
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
+  
 }
 
 .button:hover{
@@ -808,6 +809,7 @@ img{
     width: 232px;
     justify-self: center;
     margin-bottom: var(--mb-0-75);
+    border-radius: .5rem;
 }
 
 /* TESTIMONIALS */
@@ -1016,6 +1018,8 @@ img{
         margin-right: var(--mb-1);
     }
 
+    
+
     .nav__menu{
         padding: 2rem .25rem 4rem;
     }
@@ -1080,6 +1084,16 @@ img{
         width: 290px;
     }
 
+}
+
+@media screen and (max-width: 768px){
+    .home__content{
+        padding-top: 0rem;
+    }
+
+    .testimonial{
+        padding: 0 1rem;
+    }
 }
 
 /* FOR MEDIUM DEVICES */
